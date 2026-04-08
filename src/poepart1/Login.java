@@ -46,7 +46,7 @@ public class Login {
 
     // Check phone number
     public boolean checkCellPhoneNumber(String number) {
-        return number.startsWith("+27") && number.length() == 12;
+        return number.startsWith("+27") && number.length() == 12;    
     }
 
     // Register user
