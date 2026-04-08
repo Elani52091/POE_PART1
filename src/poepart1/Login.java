@@ -33,7 +33,7 @@ public class Login {
             }
 
             if (Character.isDigit(c)) {
-                hasNumber = true;
+                hasNumber = true;        
             }
 
             if (!Character.isLetterOrDigit(c)) { // ✅ FIXED
