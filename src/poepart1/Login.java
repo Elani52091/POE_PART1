@@ -26,7 +26,7 @@ public class Login {
         boolean hasSpecial = false;
 
         for (int i = 0; i < password.length(); i++) {
-            char c = password.charAt(i);
+            char c = password.charAt(i);    
 
             if (Character.isUpperCase(c)) {
                 hasCapital = true;
