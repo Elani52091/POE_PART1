@@ -23,7 +23,7 @@ public class Login {
 
         boolean hasCapital = false;
         boolean hasNumber = false;
-        boolean hasSpecial = false;
+        boolean hasSpecial = false;     
 
         for (int i = 0; i < password.length(); i++) {      
             char c = password.charAt(i);       
