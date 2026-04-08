@@ -32,7 +32,7 @@ public class Login {
                 hasCapital = true;
             }
 
-            if (Character.isDigit(c)) {
+            if (Character.isDigit(c)) {    
                 hasNumber = true;        
             }
 
